@@ -3,8 +3,8 @@ import logo from '../assets/logo.svg';
 
 const Hero = () => {
   return (
-    <header className='w-full flex center items-center flex-col'>
-      <nav className='flex justify-between items-center w-full mb-10 pt-3'>
+    <header className='w-full items-center'>
+      <nav className='flex justify-evenly flex-col items-center w-full pt-3'>
         {/* img */}
         <img src={logo} alt="sumz_logo" className='w-28 object-contain'/>
 
