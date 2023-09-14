@@ -44,10 +44,10 @@ e.preventDefault();
       {/* search box */}
       <div className="flex flex-col w-full gap-2">
         <form className="relative flex justify-center items-center" onSubmit={handleSubmit}>
-          <img src={linkIcon} alt="link_icon" className="absolute left-0 my-2 ml-3 w-5"/>
+          <img src={linkIcon} alt="link_icon" className="absolute left-0 my-2 ml-3 w-5" />
           <input type="url" placeholder="Enter the url" value={article.url} onChange={(e) => setarticle({ ...article, url: e.target.value })} required className="url_input peer" />
           <button type="submit" className="submit_btn peer-focus:border-gray-700 peer-focus:text-700">
-          ↵
+            ↵
           </button>
         </form>
 
@@ -65,6 +65,29 @@ e.preventDefault();
       </div>
 
       {/* result */}
+      <div className="my-10 max-w-full flex justify-center items-center">
+        {isFetching ? (
+          <img src="{loader}" alt="loader" className="w-20 h-20 object-contain" />
+        ) : error ? (
+          <p className="font-inter font-bold text-black text-center">
+            Shouldn't have happened...
+            <br />
+            <span className="font-satoshi font-normal text-gray-700">
+              {error?.data?.error}
+            </span>
+          </p>
+        ) : (
+          article.summary && (
+            <div className="glex flex-col gap-3">
+              <h2 className="font-satoshi font-bold text-gray-600 text-xl">Article <span className="blue-gradient">Summary</span></h2>
+              <div className="summary_box">
+                <p>{article.summary}</p>
+              </div>
+            </div>
+          )
+        )
+      }
+      </div>
     </section>
   )
 }
