@@ -1,8 +1,70 @@
-# React + Vite
+# AI Summarizer Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The AI Summarizer Project is a web application built using React that leverages artificial intelligence to generate concise and coherent summaries of given text content. Whether you have lengthy articles, research papers, or any other text, our AI Summarizer helps you quickly extract the key information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Text Summarization**: Automatically generate summaries for input text.
+- **Interactive User Interface**: A user-friendly interface built with React for a seamless user experience.
+- **Responsive Design**: Accessible and responsive design for users on various devices.
+
+## Demo
+
+[![Demo Video](demo-thumbnail.png)](link-to-demo-video)
+
+Check out our demo video [here](link-to-demo-video) to see the AI Summarizer in action.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/ai-summarizer.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd ai-summarizer
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your browser and visit `http://localhost:3000` to see the application.
+
+## Usage
+
+1. Enter or paste the text you want to summarize into the input field.
+2. Click the "Summarize" button.
+3. View the generated summary and make any adjustments if needed.
+
+## Technologies Used
+
+- React
+- [Your AI Summarization Library/Framework]
+
+## Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Contact
+
+For inquiries or feedback, please contact Aarya at aaru7276@gmail.com.
