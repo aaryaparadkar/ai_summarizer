@@ -10,12 +10,6 @@ The AI Summarizer Project is a web application built using React that leverages 
 - **Interactive User Interface**: A user-friendly interface built with React for a seamless user experience.
 - **Responsive Design**: Accessible and responsive design for users on various devices.
 
-## Demo
-
-[![Demo Video](demo-thumbnail.png)](link-to-demo-video)
-
-Check out our demo video [here](link-to-demo-video) to see the AI Summarizer in action.
-
 ## Getting Started
 
 ### Prerequisites
@@ -39,7 +33,7 @@ Check out our demo video [here](link-to-demo-video) to see the AI Summarizer in 
 3. Install dependencies:
 
     ```bash
-    npm install
+    npm i
     ```
 
 4. Start the development server:
@@ -59,7 +53,6 @@ Check out our demo video [here](link-to-demo-video) to see the AI Summarizer in 
 ## Technologies Used
 
 - React
-- [Your AI Summarization Library/Framework]
 
 ## Contributing
 
