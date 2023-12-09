@@ -52,7 +52,7 @@ The AI Summarizer Project is a web application built using React that leverages 
 
 ## Technologies Used
 
-- React
+- React + Vite
 
 ## Contributing
 
