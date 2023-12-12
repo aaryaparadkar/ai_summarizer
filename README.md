@@ -8,7 +8,6 @@ The AI Summarizer Project is a web application built using React that leverages 
 
 - **Text Summarization**: Automatically generate summaries for input text.
 - **Interactive User Interface**: A user-friendly interface built with React for a seamless user experience.
-- **Responsive Design**: Accessible and responsive design for users on various devices.
 
 ## Getting Started
 
