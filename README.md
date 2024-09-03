@@ -2,6 +2,7 @@
 
 ## Overview
 
+
 The AI Summarizer Project is a web application built using React that leverages artificial intelligence to generate concise and coherent summaries of given text content. Whether you have lengthy articles, research papers, or any other text, our AI Summarizer helps you quickly extract the key information.
 
 ## Features
